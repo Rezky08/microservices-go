@@ -12,7 +12,7 @@ const docTemplate = `{
         "termsOfService": "http://swagger.io/terms/",
         "contact": {
             "name": "Alejandro Gabriel Guerrero",
-            "url": "http://github.com/gbrayhan",
+            "url": "http://github.com/Rezky08",
             "email": "gbrayhan@gmail.com"
         },
         "license": {

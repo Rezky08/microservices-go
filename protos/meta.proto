@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package format;
+option go_package = "pb/meta";
+
+message Meta {
+  string ErrorType = 1;
+  uint64 ErrorCode = 2;
+  string ErrorMessage = 3;
+}

@@ -2,9 +2,9 @@
 package adapter
 
 import (
-	medicineService "github.com/gbrayhan/microservices-go/application/usecases/medicine"
-	medicineRepository "github.com/gbrayhan/microservices-go/infrastructure/repository/medicine"
-	medicineController "github.com/gbrayhan/microservices-go/infrastructure/rest/controllers/medicine"
+	medicineService "github.com/Rezky08/microservices-go/application/usecases/medicine"
+	medicineRepository "github.com/Rezky08/microservices-go/infrastructure/repository/medicine"
+	medicineController "github.com/Rezky08/microservices-go/infrastructure/rest/controllers/medicine"
 	"gorm.io/gorm"
 )
 

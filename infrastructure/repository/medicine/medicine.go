@@ -3,11 +3,11 @@ package medicine
 
 import (
 	"encoding/json"
-	"github.com/gbrayhan/microservices-go/domain"
-	"github.com/gbrayhan/microservices-go/infrastructure/repository"
+	"github.com/Rezky08/microservices-go/domain"
+	"github.com/Rezky08/microservices-go/infrastructure/repository"
 
-	domainErrors "github.com/gbrayhan/microservices-go/domain/errors"
-	domainMedicine "github.com/gbrayhan/microservices-go/domain/medicine"
+	domainErrors "github.com/Rezky08/microservices-go/domain/errors"
+	domainMedicine "github.com/Rezky08/microservices-go/domain/medicine"
 	"gorm.io/gorm"
 )
 

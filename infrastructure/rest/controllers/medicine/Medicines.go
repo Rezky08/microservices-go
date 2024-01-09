@@ -3,12 +3,12 @@ package medicine
 
 import (
 	"errors"
-	"github.com/gbrayhan/microservices-go/domain"
+	"github.com/Rezky08/microservices-go/domain"
 
-	useCaseMedicine "github.com/gbrayhan/microservices-go/application/usecases/medicine"
-	domainError "github.com/gbrayhan/microservices-go/domain/errors"
-	domainMedicine "github.com/gbrayhan/microservices-go/domain/medicine"
-	"github.com/gbrayhan/microservices-go/infrastructure/rest/controllers"
+	useCaseMedicine "github.com/Rezky08/microservices-go/application/usecases/medicine"
+	domainError "github.com/Rezky08/microservices-go/domain/errors"
+	domainMedicine "github.com/Rezky08/microservices-go/domain/medicine"
+	"github.com/Rezky08/microservices-go/infrastructure/rest/controllers"
 
 	"net/http"
 	"strconv"

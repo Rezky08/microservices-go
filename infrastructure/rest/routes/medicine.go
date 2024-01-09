@@ -2,8 +2,8 @@
 package routes
 
 import (
-	medicineController "github.com/gbrayhan/microservices-go/infrastructure/rest/controllers/medicine"
-	"github.com/gbrayhan/microservices-go/infrastructure/rest/middlewares"
+	medicineController "github.com/Rezky08/microservices-go/infrastructure/rest/controllers/medicine"
+	"github.com/Rezky08/microservices-go/infrastructure/rest/middlewares"
 	"github.com/gin-gonic/gin"
 )
 

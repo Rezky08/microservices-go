@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	domainErrors "github.com/gbrayhan/microservices-go/domain/errors"
+	domainErrors "github.com/Rezky08/microservices-go/domain/errors"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/spf13/viper"
 )

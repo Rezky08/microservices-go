@@ -2,9 +2,9 @@
 package medicine
 
 import (
-	"github.com/gbrayhan/microservices-go/domain"
-	medicineDomain "github.com/gbrayhan/microservices-go/domain/medicine"
-	medicineRepository "github.com/gbrayhan/microservices-go/infrastructure/repository/medicine"
+	"github.com/Rezky08/microservices-go/domain"
+	medicineDomain "github.com/Rezky08/microservices-go/domain/medicine"
+	medicineRepository "github.com/Rezky08/microservices-go/infrastructure/repository/medicine"
 )
 
 // Service is a struct that contains the repository implementation for medicine use case

@@ -2,7 +2,7 @@
 package user
 
 import (
-	domainUser "github.com/gbrayhan/microservices-go/domain/user"
+	domainUser "github.com/Rezky08/microservices-go/domain/user"
 )
 
 // PaginationResultUser is the structure for pagination result of user

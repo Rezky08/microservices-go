@@ -3,8 +3,8 @@ package routes
 
 import (
 	// swaggerFiles for documentation
-	_ "github.com/gbrayhan/microservices-go/docs"
-	"github.com/gbrayhan/microservices-go/infrastructure/rest/adapter"
+	_ "github.com/Rezky08/microservices-go/docs"
+	"github.com/Rezky08/microservices-go/infrastructure/rest/adapter"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
@@ -23,7 +23,7 @@ type Security struct {
 // @termsOfService http://swagger.io/terms/
 
 // @contact.name Alejandro Gabriel Guerrero
-// @contact.url http://github.com/gbrayhan
+// @contact.url http://github.com/Rezky08
 // @contact.email gbrayhan@gmail.com
 
 // @license.name Apache 2.0

@@ -2,9 +2,9 @@
 package adapter
 
 import (
-	authService "github.com/gbrayhan/microservices-go/application/usecases/auth"
-	userRepository "github.com/gbrayhan/microservices-go/infrastructure/repository/user"
-	authController "github.com/gbrayhan/microservices-go/infrastructure/rest/controllers/auth"
+	authService "github.com/Rezky08/microservices-go/application/usecases/auth"
+	userRepository "github.com/Rezky08/microservices-go/infrastructure/repository/user"
+	authController "github.com/Rezky08/microservices-go/infrastructure/rest/controllers/auth"
 	"gorm.io/gorm"
 )
 

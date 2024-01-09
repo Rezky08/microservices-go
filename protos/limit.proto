@@ -1,0 +1,89 @@
+syntax = "proto3";
+
+package limit;
+option go_package = "pb/limit";
+
+import "meta.proto";
+
+service LimitService{
+  rpc CreateLimit(LimitCreate) returns (LimitCreateResponse);
+  rpc UpdateLimit(LimitUpdate) returns (LimitUpdateResponse);
+  rpc DetailLimit(LimitDetail) returns (LimitDetailResponse);
+  rpc DeleteLimit(LimitDelete) returns (LimitUpdateResponse);
+}
+message Data{
+  uint64 LimitId = 12;
+  string KeyType = 1;
+  string KeyValue = 2;
+  double AvailableAmount = 3;
+  double UsableAmount = 4;
+  double OutstandingAmount = 5;
+  double HoldAmount = 6;
+  double SharedAmount = 7;
+  double CcyId = 8;
+  double ExpiryDate = 9;
+  double ParentId = 10;
+  double IsInherit = 11;
+}
+
+message LimitCreate {
+  string KeyType = 1;
+  string KeyValue = 2;
+  double AvailableAmount = 3;
+  double UsableAmount = 4;
+  double OutstandingAmount = 5;
+  double HoldAmount = 6;
+  double SharedAmount = 7;
+  double CcyId = 8;
+  double ExpiryDate = 9;
+  double ParentId = 10;
+  double IsInherit = 11;
+}
+
+message LimitCreateResponse {
+  format.Meta Meta = 1;
+   message Data{
+     uint64 TempId = 1;
+     uint64 ChangesId = 2;
+   }
+}
+message LimitUpdate {
+  string KeyType = 1;
+  string KeyValue = 2;
+  double AvailableAmount = 3;
+  double UsableAmount = 4;
+  double OutstandingAmount = 5;
+  double HoldAmount = 6;
+  double SharedAmount = 7;
+  double CcyId = 8;
+  double ExpiryDate = 9;
+  double ParentId = 10;
+  double IsInherit = 11;
+}
+
+message LimitUpdateResponse {
+  format.Meta Meta = 1;
+   message Data{
+     uint64 TempId = 1;
+     uint64 ChangesId = 2;
+   }
+}
+
+message LimitDetail{
+  uint64 Id = 1;
+}
+
+
+message LimitDetailResponse {
+  format.Meta Meta = 1;
+  Data Data = 2;
+}
+
+message LimitDelete{
+  uint64 Id = 1;
+}
+
+message LimitDeleteResponse {
+  format.Meta Meta = 1;
+  Data Data = 2;
+}

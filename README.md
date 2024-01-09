@@ -1,9 +1,9 @@
 # Golang Microservices Boilerplate - Clean Architecture
 
-[![issues](https://img.shields.io/github/issues/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/tree/master/.github/ISSUE_TEMPLATE)
-[![forks](https://img.shields.io/github/forks/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/network/members)
-[![stars](https://img.shields.io/github/stars/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/stargazers)
-[![license](https://img.shields.io/github/license/gbrayhan/microservices-go)](https://github.com/gbrayhan/microservices-go/tree/master/LICENSE)
+[![issues](https://img.shields.io/github/issues/gbrayhan/microservices-go)](https://github.com/Rezky08/microservices-go/tree/master/.github/ISSUE_TEMPLATE)
+[![forks](https://img.shields.io/github/forks/gbrayhan/microservices-go)](https://github.com/Rezky08/microservices-go/network/members)
+[![stars](https://img.shields.io/github/stars/gbrayhan/microservices-go)](https://github.com/Rezky08/microservices-go/stargazers)
+[![license](https://img.shields.io/github/license/gbrayhan/microservices-go)](https://github.com/Rezky08/microservices-go/tree/master/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/gbrayhan/microservices-go/badge/main)](https://www.codefactor.io/repository/github/gbrayhan/microservices-go/overview/main)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6c10cc49928447f38952edaab67a94a4)](https://www.codacy.com/gh/gbrayhan/microservices-go/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gbrayhan/microservices-go&amp;utm_campaign=Badge_Grade)
 
@@ -17,7 +17,7 @@ If you would still prefer to do the installation manually, follow these steps:
 Clone the repo:
 
 ```bash
-git clone https://github.com/gbrayhan/microservices-go
+git clone https://github.com/Rezky08/microservices-go
 ```
 
 If you need, configure the environment variables in file config.json, if you use docker-compose leave the variables set
@@ -29,7 +29,7 @@ cp config.json.example config.json
 
 **TL;DR command list**
 
-    git clone https://github.com/gbrayhan/microservices-go
+    git clone https://github.com/Rezky08/microservices-go
     cd microservices-go
     cp config.json.example config.json
     docker-compose up  --build  -d

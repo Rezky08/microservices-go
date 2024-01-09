@@ -2,7 +2,7 @@ package repository
 
 import (
 	"fmt"
-	"github.com/gbrayhan/microservices-go/domain"
+	"github.com/Rezky08/microservices-go/domain"
 	"gorm.io/gorm"
 	"strings"
 )

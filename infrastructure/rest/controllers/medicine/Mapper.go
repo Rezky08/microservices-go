@@ -1,6 +1,6 @@
 package medicine
 
-import medicineDomain "github.com/gbrayhan/microservices-go/domain/medicine"
+import medicineDomain "github.com/Rezky08/microservices-go/domain/medicine"
 
 func domainToResponseMapper(clientDomain *medicineDomain.Medicine) (createClientResponse *ResponseMedicine) {
 	createClientResponse = &ResponseMedicine{
